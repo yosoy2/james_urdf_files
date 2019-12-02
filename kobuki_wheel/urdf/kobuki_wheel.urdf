@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="kobuki_wheel">
+  <link
+    name="kobuki_wheel">
+    <inertial>
+      <origin
+        xyz="0 -4.07927727781476E-19 0.0103"
+        rpy="0 0 0" />
+      <mass
+        value="0.080092" />
+      <inertia
+        ixx="2.7607E-05"
+        ixy="3.15507580998797E-54"
+        ixz="-5.1528E-38"
+        iyy="2.7607E-05"
+        iyz="1.34431162490851E-21"
+        izz="4.9562E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://kobuki_wheel/meshes/kobuki_wheel.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.10196 0.10196 0.10196 1" />
+        <texture
+          filename="package://kobuki_wheel/textures/" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://kobuki_wheel/meshes/kobuki_wheel.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>

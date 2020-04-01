@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="camera">
+  <link
+    name="camera_ASUS_XTION">
+    <inertial>
+      <origin
+        xyz="-0.00028713 0.01878 -0.000201030000000001"
+        rpy="0 0 0" />
+      <mass
+        value="0.15031" />
+      <inertia
+        ixx="2.3618E-05"
+        ixy="-5.3487E-07"
+        ixz="8.67619999999997E-09"
+        iyy="0.00039928"
+        iyz="1.37240000000004E-08"
+        izz="0.00040606" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://camera_ASUS_XTION/meshes/camera_ASUS_XTION.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+        <texture
+          filename="package://camera_ASUS_XTION/textures/" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="1.5707963267949 0 0" />
+      <geometry>
+        <mesh
+          filename="package://camera_ASUS_XTION/meshes/camera_ASUS_XTION.STL" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
